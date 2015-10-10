@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D4668201BC5278700AB3CFE /* MainTopJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46681F1BC5278700AB3CFE /* MainTopJobsViewController.swift */; };
+		8D6C4DDA1BC90F7B002D60CB /* JobsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C4DD71BC90F7B002D60CB /* JobsData.swift */; };
+		8D6C4DDB1BC90F7B002D60CB /* JobsItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C4DD81BC90F7B002D60CB /* JobsItems.swift */; };
+		8D6C4DDF1BC91054002D60CB /* JobsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C4DDE1BC91054002D60CB /* JobsTableViewController.swift */; };
 		8D6E11C71BC39AA300A42E0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6E11C61BC39AA300A42E0F /* AppDelegate.swift */; };
 		8D6E11C91BC39AA300A42E0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6E11C81BC39AA300A42E0F /* ViewController.swift */; };
 		8D6E11CC1BC39AA300A42E0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6E11CA1BC39AA300A42E0F /* Main.storyboard */; };
 		8D6E11CE1BC39AA300A42E0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D6E11CD1BC39AA300A42E0F /* Images.xcassets */; };
 		8D6E11D11BC39AA300A42E0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D6E11CF1BC39AA300A42E0F /* LaunchScreen.xib */; };
 		8D6E11DD1BC39AA300A42E0F /* ShahrMaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6E11DC1BC39AA300A42E0F /* ShahrMaTests.swift */; };
+		8D6E11E91BC39C1000A42E0F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6E11E81BC39C1000A42E0F /* SWRevealViewController.m */; };
+		8D6E11EF1BC3A26400A42E0F /* MenuTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6E11EE1BC3A26400A42E0F /* MenuTableView.swift */; };
+		8D840D4B1BC4FA6600531E7F /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D840D4A1BC4FA6600531E7F /* MainTabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D46681F1BC5278700AB3CFE /* MainTopJobsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTopJobsViewController.swift; sourceTree = "<group>"; };
+		8D6C4DD71BC90F7B002D60CB /* JobsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsData.swift; sourceTree = "<group>"; };
+		8D6C4DD81BC90F7B002D60CB /* JobsItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsItems.swift; sourceTree = "<group>"; };
+		8D6C4DDE1BC91054002D60CB /* JobsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsTableViewController.swift; sourceTree = "<group>"; };
 		8D6E11C11BC39AA300A42E0F /* ShahrMa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShahrMa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6E11C51BC39AA300A42E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D6E11C61BC39AA300A42E0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +47,11 @@
 		8D6E11D61BC39AA300A42E0F /* ShahrMaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShahrMaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6E11DB1BC39AA300A42E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D6E11DC1BC39AA300A42E0F /* ShahrMaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShahrMaTests.swift; sourceTree = "<group>"; };
+		8D6E11E61BC39C1000A42E0F /* ShahrMa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShahrMa-Bridging-Header.h"; sourceTree = "<group>"; };
+		8D6E11E71BC39C1000A42E0F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		8D6E11E81BC39C1000A42E0F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		8D6E11EE1BC3A26400A42E0F /* MenuTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableView.swift; sourceTree = "<group>"; };
+		8D840D4A1BC4FA6600531E7F /* MainTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D6C4DDD1BC90F84002D60CB /* Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				8D6C4DDE1BC91054002D60CB /* JobsTableViewController.swift */,
+				8D6C4DD71BC90F7B002D60CB /* JobsData.swift */,
+				8D6C4DD81BC90F7B002D60CB /* JobsItems.swift */,
+			);
+			name = Jobs;
+			sourceTree = "<group>";
+		};
 		8D6E11B81BC39AA300A42E0F = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +103,17 @@
 		8D6E11C31BC39AA300A42E0F /* ShahrMa */ = {
 			isa = PBXGroup;
 			children = (
+				8D6C4DDD1BC90F84002D60CB /* Jobs */,
 				8D6E11C61BC39AA300A42E0F /* AppDelegate.swift */,
 				8D6E11C81BC39AA300A42E0F /* ViewController.swift */,
 				8D6E11CA1BC39AA300A42E0F /* Main.storyboard */,
 				8D6E11CD1BC39AA300A42E0F /* Images.xcassets */,
+				8D6E11F41BC3ACB200A42E0F /* Images */,
 				8D6E11CF1BC39AA300A42E0F /* LaunchScreen.xib */,
 				8D6E11C41BC39AA300A42E0F /* Supporting Files */,
+				8D6E11EE1BC3A26400A42E0F /* MenuTableView.swift */,
+				8D840D4A1BC4FA6600531E7F /* MainTabViewController.swift */,
+				8D46681F1BC5278700AB3CFE /* MainTopJobsViewController.swift */,
 			);
 			path = ShahrMa;
 			sourceTree = "<group>";
@@ -90,7 +121,10 @@
 		8D6E11C41BC39AA300A42E0F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8D6E11E71BC39C1000A42E0F /* SWRevealViewController.h */,
+				8D6E11E81BC39C1000A42E0F /* SWRevealViewController.m */,
 				8D6E11C51BC39AA300A42E0F /* Info.plist */,
+				8D6E11E61BC39C1000A42E0F /* ShahrMa-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,6 +144,13 @@
 				8D6E11DB1BC39AA300A42E0F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D6E11F41BC3ACB200A42E0F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +253,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D840D4B1BC4FA6600531E7F /* MainTabViewController.swift in Sources */,
 				8D6E11C91BC39AA300A42E0F /* ViewController.swift in Sources */,
+				8D6C4DDB1BC90F7B002D60CB /* JobsItems.swift in Sources */,
 				8D6E11C71BC39AA300A42E0F /* AppDelegate.swift in Sources */,
+				8D6E11EF1BC3A26400A42E0F /* MenuTableView.swift in Sources */,
+				8D6E11E91BC39C1000A42E0F /* SWRevealViewController.m in Sources */,
+				8D6C4DDA1BC90F7B002D60CB /* JobsData.swift in Sources */,
+				8D4668201BC5278700AB3CFE /* MainTopJobsViewController.swift in Sources */,
+				8D6C4DDF1BC91054002D60CB /* JobsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,9 +390,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ShahrMa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShahrMa/ShahrMa-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -352,9 +403,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ShahrMa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShahrMa/ShahrMa-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +464,7 @@
 				8D6E11E21BC39AA300A42E0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D6E11E31BC39AA300A42E0F /* Build configuration list for PBXNativeTarget "ShahrMaTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +473,7 @@
 				8D6E11E51BC39AA300A42E0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
