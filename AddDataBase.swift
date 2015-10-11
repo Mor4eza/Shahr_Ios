@@ -222,6 +222,10 @@ class AddDataBase : DataBase  {
     
     func Add_collection(id: Int,collectionname : String) {
     
+        let filemgr = NSFileManager.defaultManager()
+        let dirPaths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory,.UserDomainMask,true)
+        let docsDir = dirPaths[0] as! String
+        databasePath = docsDir.stringByAppendingPathComponent("Shahrma.db")
         let db = FMDatabase(path: databasePath as String)
         
         if db.open() {

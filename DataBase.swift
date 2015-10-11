@@ -7,10 +7,11 @@
 //
 
 import Foundation
-public class DataBase {
+class DataBase  {
  
     
-    var databasePath = NSString()
+     var databasePath = NSString()
+      
     // create or open the database
     func CreateOropen(){
         println("Start create database")
@@ -19,6 +20,7 @@ public class DataBase {
         let docsDir = dirPaths[0] as! String
         databasePath = docsDir.stringByAppendingPathComponent("Shahrma.db")
         println(databasePath)
+        
         if !filemgr.fileExistsAtPath(databasePath as String) {
             let ShahrmaDB = FMDatabase(path: databasePath as String)
             if ShahrmaDB == nil{
@@ -131,6 +133,6 @@ public class DataBase {
         
     }
     
-   
+    
     
 }

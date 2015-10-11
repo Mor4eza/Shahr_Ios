@@ -14,7 +14,7 @@ class HTTPGetCollectionJson {
     
     
     
-    let urlArea : String = "http://test.shahrma.com/api/apigivearea"
+    let urlArea : String = "http://test.shahrma.com/api/apigiveCollection"
     var errorcode : Int = 0
     var id : [Int] = []
     var name : [String] = []
@@ -25,14 +25,16 @@ class HTTPGetCollectionJson {
     
     func doInBackground(){
         //important
-        onPostExecute()
+        onPreExecute()
         getStreamFromURL(urlArea,method: "GET")
+        print("oomaaaad")
         onPostExecute()
     }
     
     func onPostExecute(){
         
         //Last
+        
     }
     
     
@@ -103,10 +105,20 @@ class HTTPGetCollectionJson {
             id.append(ids)
             name.append(namearea)
             println("Id : \(ids)")
-            println("Name : \(name)")
+            println("Name : \(namearea)")
             
             
         }// for
+        
+        
+        print("oomad")
+        var db = AddDataBase()
+        
+        for var i = 0; i < id.count; i++ {
+            db.Add_collection(id[i], collectionname: name[i])
+            print("raft \(i)")
+            
+        }
         
     }//func
     

@@ -43,6 +43,9 @@ class MenuTableView: UITableViewController {
         switch indexPath.row{
         case 0:
             jobs()
+            var http = HTTPGetCollectionJson()
+            http.doInBackground()
+            
         default :
             return
         }

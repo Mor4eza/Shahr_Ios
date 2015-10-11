@@ -13,7 +13,7 @@ class HTTPGetSubsetJson {
     
     
     
-    let urlArea : String = "http://test.shahrma.com/api/apigivearea"
+    let urlArea : String = "http://test.shahrma.com/api/apigiveSubset"
     var errorcode : Int = 0
     var id : [Int] = []
     var collectionid : [Int] = []
@@ -99,8 +99,8 @@ class HTTPGetSubsetJson {
             
             
             let ids = (jsonObject as! NSDictionary)["Id"] as! Int
-            let coll = (jsonObject as! NSDictionary)["CollectionId"] as! Int
             let namearea = (jsonObject as! NSDictionary)["Name"] as! String
+            let coll = (jsonObject as! NSDictionary)["CollectionId"] as! Int
             id.append(ids)
             name.append(namearea)
             collectionid.append(coll)
@@ -109,6 +109,14 @@ class HTTPGetSubsetJson {
             
             
         }// for
+        
+        var db = AddDataBase()
+        
+        for var i = 0; i < id.count; i++ {
+            db.Add_subset(id[i], Subsetname: name[i], CollectionId: collectionid[i])
+            print("raft \(i)")
+            
+        }
         
     }//func
 
