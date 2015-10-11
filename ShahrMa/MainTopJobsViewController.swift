@@ -29,7 +29,7 @@ class MainTopJobsViewController: UIViewController {
    
     }
     func imageClick(img: UIImageView){
-        
+       
     }
     /*
     // MARK: - Navigation

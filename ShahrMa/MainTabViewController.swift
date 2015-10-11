@@ -19,6 +19,14 @@ class MainTabViewController: UITabBarController {
 
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         // Do any additional setup after loading the view.
+        
+        
+        
+        var db = DataBase()
+        db.CreateOropen()
+        
+        var db1 = AddDataBase ()
+        db1.Add_subset(2, Subsetname: "mori", CollectionId: 14)
     }
 
     override func didReceiveMemoryWarning() {
