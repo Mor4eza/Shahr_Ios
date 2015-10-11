@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42163FBE1BCA34DE001EBDC7 /* HTTPGetAdvertismentJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FB51BCA34DE001EBDC7 /* HTTPGetAdvertismentJson.swift */; };
+		42163FBF1BCA34DE001EBDC7 /* HTTPGetAreaJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FB61BCA34DE001EBDC7 /* HTTPGetAreaJson.swift */; };
+		42163FC01BCA34DE001EBDC7 /* HTTPGetBooMarkJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FB71BCA34DE001EBDC7 /* HTTPGetBooMarkJson.swift */; };
+		42163FC11BCA34DE001EBDC7 /* HTTPGetBussinessJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FB81BCA34DE001EBDC7 /* HTTPGetBussinessJson.swift */; };
+		42163FC21BCA34DE001EBDC7 /* HTTPGetCityJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FB91BCA34DE001EBDC7 /* HTTPGetCityJson.swift */; };
+		42163FC31BCA34DE001EBDC7 /* HTTPGetCollectionJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FBA1BCA34DE001EBDC7 /* HTTPGetCollectionJson.swift */; };
+		42163FC41BCA34DE001EBDC7 /* HTTPGetFieldActivityJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FBB1BCA34DE001EBDC7 /* HTTPGetFieldActivityJson.swift */; };
+		42163FC51BCA34DE001EBDC7 /* HTTPGetOpinionJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FBC1BCA34DE001EBDC7 /* HTTPGetOpinionJson.swift */; };
+		42163FC61BCA34DE001EBDC7 /* HTTPGetSubsetJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FBD1BCA34DE001EBDC7 /* HTTPGetSubsetJson.swift */; };
+		42163FD31BCA3568001EBDC7 /* AddDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FC91BCA3568001EBDC7 /* AddDataBase.swift */; };
+		42163FD41BCA3568001EBDC7 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FCA1BCA3568001EBDC7 /* DataBase.swift */; };
+		42163FD51BCA3568001EBDC7 /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FCB1BCA3568001EBDC7 /* DateTime.swift */; };
+		42163FD61BCA3568001EBDC7 /* DeleteDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FCC1BCA3568001EBDC7 /* DeleteDataBase.swift */; };
+		42163FD71BCA3568001EBDC7 /* FieldClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FCD1BCA3568001EBDC7 /* FieldClass.swift */; };
+		42163FD81BCA3568001EBDC7 /* FieldDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FCE1BCA3568001EBDC7 /* FieldDataBase.swift */; };
+		42163FD91BCA3568001EBDC7 /* FieldDataBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FCF1BCA3568001EBDC7 /* FieldDataBusiness.swift */; };
+		42163FDA1BCA3568001EBDC7 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FD01BCA3568001EBDC7 /* File.swift */; };
+		42163FDB1BCA3568001EBDC7 /* QUERY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FD11BCA3568001EBDC7 /* QUERY.swift */; };
+		42163FDC1BCA3568001EBDC7 /* SelectDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FD21BCA3568001EBDC7 /* SelectDataBase.swift */; };
+		42163FE01BCA36B7001EBDC7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 42163FDF1BCA36B7001EBDC7 /* libsqlite3.dylib */; };
 		8D4668201BC5278700AB3CFE /* MainTopJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46681F1BC5278700AB3CFE /* MainTopJobsViewController.swift */; };
 		8D6C4DDA1BC90F7B002D60CB /* JobsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C4DD71BC90F7B002D60CB /* JobsData.swift */; };
 		8D6C4DDB1BC90F7B002D60CB /* JobsItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C4DD81BC90F7B002D60CB /* JobsItems.swift */; };
@@ -33,6 +53,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42163FB51BCA34DE001EBDC7 /* HTTPGetAdvertismentJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPGetAdvertismentJson.swift; path = ../HTTPGetAdvertismentJson.swift; sourceTree = "<group>"; };
+		42163FB61BCA34DE001EBDC7 /* HTTPGetAreaJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPGetAreaJson.swift; path = ../HTTPGetAreaJson.swift; sourceTree = "<group>"; };
+		42163FB71BCA34DE001EBDC7 /* HTTPGetBooMarkJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPGetBooMarkJson.swift; path = ../HTTPGetBooMarkJson.swift; sourceTree = "<group>"; };
+		42163FB81BCA34DE001EBDC7 /* HTTPGetBussinessJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPGetBussinessJson.swift; path = ../HTTPGetBussinessJson.swift; sourceTree = "<group>"; };
+		42163FB91BCA34DE001EBDC7 /* HTTPGetCityJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPGetCityJson.swift; path = ../HTTPGetCityJson.swift; sourceTree = "<group>"; };
+		42163FBA1BCA34DE001EBDC7 /* HTTPGetCollectionJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPGetCollectionJson.swift; path = ../HTTPGetCollectionJson.swift; sourceTree = "<group>"; };
+		42163FBB1BCA34DE001EBDC7 /* HTTPGetFieldActivityJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPGetFieldActivityJson.swift; path = ../HTTPGetFieldActivityJson.swift; sourceTree = "<group>"; };
+		42163FBC1BCA34DE001EBDC7 /* HTTPGetOpinionJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPGetOpinionJson.swift; path = ../HTTPGetOpinionJson.swift; sourceTree = "<group>"; };
+		42163FBD1BCA34DE001EBDC7 /* HTTPGetSubsetJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPGetSubsetJson.swift; path = ../HTTPGetSubsetJson.swift; sourceTree = "<group>"; };
+		42163FC91BCA3568001EBDC7 /* AddDataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddDataBase.swift; path = ../AddDataBase.swift; sourceTree = "<group>"; };
+		42163FCA1BCA3568001EBDC7 /* DataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataBase.swift; path = ../DataBase.swift; sourceTree = "<group>"; };
+		42163FCB1BCA3568001EBDC7 /* DateTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateTime.swift; path = ../DateTime.swift; sourceTree = "<group>"; };
+		42163FCC1BCA3568001EBDC7 /* DeleteDataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeleteDataBase.swift; path = ../DeleteDataBase.swift; sourceTree = "<group>"; };
+		42163FCD1BCA3568001EBDC7 /* FieldClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FieldClass.swift; path = ../FieldClass.swift; sourceTree = "<group>"; };
+		42163FCE1BCA3568001EBDC7 /* FieldDataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FieldDataBase.swift; path = ../FieldDataBase.swift; sourceTree = "<group>"; };
+		42163FCF1BCA3568001EBDC7 /* FieldDataBusiness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FieldDataBusiness.swift; path = ../FieldDataBusiness.swift; sourceTree = "<group>"; };
+		42163FD01BCA3568001EBDC7 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = File.swift; path = ../File.swift; sourceTree = "<group>"; };
+		42163FD11BCA3568001EBDC7 /* QUERY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QUERY.swift; path = ../QUERY.swift; sourceTree = "<group>"; };
+		42163FD21BCA3568001EBDC7 /* SelectDataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectDataBase.swift; path = ../SelectDataBase.swift; sourceTree = "<group>"; };
+		42163FDF1BCA36B7001EBDC7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		8D46681F1BC5278700AB3CFE /* MainTopJobsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTopJobsViewController.swift; sourceTree = "<group>"; };
 		8D6C4DD71BC90F7B002D60CB /* JobsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsData.swift; sourceTree = "<group>"; };
 		8D6C4DD81BC90F7B002D60CB /* JobsItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsItems.swift; sourceTree = "<group>"; };
@@ -59,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42163FE01BCA36B7001EBDC7 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +113,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42163FC71BCA34EC001EBDC7 /* WebServiceGet */ = {
+			isa = PBXGroup;
+			children = (
+				42163FB51BCA34DE001EBDC7 /* HTTPGetAdvertismentJson.swift */,
+				42163FB61BCA34DE001EBDC7 /* HTTPGetAreaJson.swift */,
+				42163FB71BCA34DE001EBDC7 /* HTTPGetBooMarkJson.swift */,
+				42163FB81BCA34DE001EBDC7 /* HTTPGetBussinessJson.swift */,
+				42163FB91BCA34DE001EBDC7 /* HTTPGetCityJson.swift */,
+				42163FBA1BCA34DE001EBDC7 /* HTTPGetCollectionJson.swift */,
+				42163FBB1BCA34DE001EBDC7 /* HTTPGetFieldActivityJson.swift */,
+				42163FBC1BCA34DE001EBDC7 /* HTTPGetOpinionJson.swift */,
+				42163FBD1BCA34DE001EBDC7 /* HTTPGetSubsetJson.swift */,
+			);
+			name = WebServiceGet;
+			sourceTree = "<group>";
+		};
+		42163FC81BCA3523001EBDC7 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				42163FC91BCA3568001EBDC7 /* AddDataBase.swift */,
+				42163FCA1BCA3568001EBDC7 /* DataBase.swift */,
+				42163FCC1BCA3568001EBDC7 /* DeleteDataBase.swift */,
+				42163FD01BCA3568001EBDC7 /* File.swift */,
+				42163FD11BCA3568001EBDC7 /* QUERY.swift */,
+				42163FD21BCA3568001EBDC7 /* SelectDataBase.swift */,
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		42163FDD1BCA3595001EBDC7 /* Fields */ = {
+			isa = PBXGroup;
+			children = (
+				42163FCD1BCA3568001EBDC7 /* FieldClass.swift */,
+				42163FCE1BCA3568001EBDC7 /* FieldDataBase.swift */,
+				42163FCF1BCA3568001EBDC7 /* FieldDataBusiness.swift */,
+			);
+			name = Fields;
+			sourceTree = "<group>";
+		};
+		42163FDE1BCA35C2001EBDC7 /* DateTime */ = {
+			isa = PBXGroup;
+			children = (
+				42163FCB1BCA3568001EBDC7 /* DateTime.swift */,
+			);
+			name = DateTime;
+			sourceTree = "<group>";
+		};
 		8D6C4DDD1BC90F84002D60CB /* Jobs */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +173,7 @@
 		8D6E11B81BC39AA300A42E0F = {
 			isa = PBXGroup;
 			children = (
+				42163FDF1BCA36B7001EBDC7 /* libsqlite3.dylib */,
 				8D6E11C31BC39AA300A42E0F /* ShahrMa */,
 				8D6E11D91BC39AA300A42E0F /* ShahrMaTests */,
 				8D6E11C21BC39AA300A42E0F /* Products */,
@@ -103,6 +192,10 @@
 		8D6E11C31BC39AA300A42E0F /* ShahrMa */ = {
 			isa = PBXGroup;
 			children = (
+				42163FDE1BCA35C2001EBDC7 /* DateTime */,
+				42163FDD1BCA3595001EBDC7 /* Fields */,
+				42163FC81BCA3523001EBDC7 /* DataBase */,
+				42163FC71BCA34EC001EBDC7 /* WebServiceGet */,
 				8D6C4DDD1BC90F84002D60CB /* Jobs */,
 				8D6E11C61BC39AA300A42E0F /* AppDelegate.swift */,
 				8D6E11C81BC39AA300A42E0F /* ViewController.swift */,
@@ -253,15 +346,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42163FC11BCA34DE001EBDC7 /* HTTPGetBussinessJson.swift in Sources */,
+				42163FC01BCA34DE001EBDC7 /* HTTPGetBooMarkJson.swift in Sources */,
+				42163FC61BCA34DE001EBDC7 /* HTTPGetSubsetJson.swift in Sources */,
 				8D840D4B1BC4FA6600531E7F /* MainTabViewController.swift in Sources */,
 				8D6E11C91BC39AA300A42E0F /* ViewController.swift in Sources */,
+				42163FD91BCA3568001EBDC7 /* FieldDataBusiness.swift in Sources */,
+				42163FC41BCA34DE001EBDC7 /* HTTPGetFieldActivityJson.swift in Sources */,
 				8D6C4DDB1BC90F7B002D60CB /* JobsItems.swift in Sources */,
+				42163FDC1BCA3568001EBDC7 /* SelectDataBase.swift in Sources */,
+				42163FBF1BCA34DE001EBDC7 /* HTTPGetAreaJson.swift in Sources */,
+				42163FC51BCA34DE001EBDC7 /* HTTPGetOpinionJson.swift in Sources */,
 				8D6E11C71BC39AA300A42E0F /* AppDelegate.swift in Sources */,
+				42163FD41BCA3568001EBDC7 /* DataBase.swift in Sources */,
+				42163FD61BCA3568001EBDC7 /* DeleteDataBase.swift in Sources */,
+				42163FD71BCA3568001EBDC7 /* FieldClass.swift in Sources */,
+				42163FD31BCA3568001EBDC7 /* AddDataBase.swift in Sources */,
+				42163FC21BCA34DE001EBDC7 /* HTTPGetCityJson.swift in Sources */,
+				42163FBE1BCA34DE001EBDC7 /* HTTPGetAdvertismentJson.swift in Sources */,
+				42163FDB1BCA3568001EBDC7 /* QUERY.swift in Sources */,
 				8D6E11EF1BC3A26400A42E0F /* MenuTableView.swift in Sources */,
 				8D6E11E91BC39C1000A42E0F /* SWRevealViewController.m in Sources */,
+				42163FC31BCA34DE001EBDC7 /* HTTPGetCollectionJson.swift in Sources */,
 				8D6C4DDA1BC90F7B002D60CB /* JobsData.swift in Sources */,
 				8D4668201BC5278700AB3CFE /* MainTopJobsViewController.swift in Sources */,
+				42163FD51BCA3568001EBDC7 /* DateTime.swift in Sources */,
+				42163FDA1BCA3568001EBDC7 /* File.swift in Sources */,
 				8D6C4DDF1BC91054002D60CB /* JobsTableViewController.swift in Sources */,
+				42163FD81BCA3568001EBDC7 /* FieldDataBase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
