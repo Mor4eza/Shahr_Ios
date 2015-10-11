@@ -11,7 +11,7 @@ class DataBase  {
  
     
      var databasePath = NSString()
-      
+    static var path : String = ""
     // create or open the database
     func CreateOropen(){
         println("Start create database")
