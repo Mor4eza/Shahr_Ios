@@ -7,18 +7,18 @@
 //
 
 import UIKit
-
+import Auk
 class ViewController: UIViewController {
 
-    @IBOutlet weak var menu: UIBarButtonItem!
+    @IBOutlet weak var scrollView: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
-      
-        menu.target = self.revealViewController()
-        menu.action = Selector("revealToggle:")
-        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        
-       
+
+        scrollView.auk.show(url: "http://www.shahrma.com/app/Advertisment/11.jpg")
+        scrollView.auk.show(url: "http://www.shahrma.com/app/Advertisment/22.jpg")
+        scrollView.auk.show(url: "http://www.shahrma.com/app/Advertisment/33.jpg")
+        scrollView.auk.startAutoScroll(delaySeconds: 3.0, forward: true, cycle: true, animated: true)
+        scrollView.auk.settings.contentMode = UIViewContentMode.ScaleToFill
     }
 
     override func didReceiveMemoryWarning() {
