@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AZt-eW-i7b">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Reveal View Controller-->
@@ -45,7 +46,7 @@
         <!--جستجو-->
         <scene sceneID="whS-EE-bs9">
             <objects>
-                <viewController id="6vk-94-iED" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="6vk-94-iED" customClass="ViewController" customModule="ShahrMa" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6DP-lF-cBf"/>
                         <viewControllerLayoutGuide type="bottom" id="IFJ-LA-I4e"/>
@@ -54,20 +55,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dcc-Bo-qMe">
-                                <rect key="frame" x="295" y="289" width="10" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oLZ-FO-9z7">
+                                <rect key="frame" x="16" y="64" width="568" height="129"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="Dcc-Bo-qMe" secondAttribute="centerY" id="6rC-aY-2B1"/>
-                            <constraint firstAttribute="centerX" secondItem="Dcc-Bo-qMe" secondAttribute="centerX" id="fJo-75-Q1t"/>
+                            <constraint firstItem="oLZ-FO-9z7" firstAttribute="top" secondItem="6DP-lF-cBf" secondAttribute="bottom" id="DQE-HB-LiY"/>
+                            <constraint firstItem="oLZ-FO-9z7" firstAttribute="leading" secondItem="app-UT-xLb" secondAttribute="leadingMargin" id="IVx-X7-SRv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oLZ-FO-9z7" secondAttribute="trailing" id="UAz-ZN-L8H"/>
+                            <constraint firstItem="IFJ-LA-I4e" firstAttribute="top" secondItem="oLZ-FO-9z7" secondAttribute="bottom" constant="358" id="VVo-Ba-Raw"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="جستجو" image="menu9" id="hev-iR-SVQ"/>
+                    <connections>
+                        <outlet property="scrollView" destination="oLZ-FO-9z7" id="FKl-To-boo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fSe-n7-IV5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

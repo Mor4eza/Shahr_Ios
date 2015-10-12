@@ -48,6 +48,7 @@
 		8DF4CEA81BCA50170095133D /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF4CEA11BCA50170095133D /* FMDatabaseQueue.m */; };
 		8DF4CEA91BCA50170095133D /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF4CEA31BCA50170095133D /* FMDatabaseAdditions.m */; };
 		8DF4CEAA1BCA50170095133D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF4CEA51BCA50170095133D /* FMDatabasePool.m */; };
+		A9976A21C59D42C49392AA7A /* Pods_ShahrMa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7547A0B0E2BBEC214317AF /* Pods_ShahrMa.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F7547A0B0E2BBEC214317AF /* Pods_ShahrMa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShahrMa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42163FB51BCA34DE001EBDC7 /* HTTPGetAdvertismentJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPGetAdvertismentJson.swift; path = ../HTTPGetAdvertismentJson.swift; sourceTree = "<group>"; };
 		42163FB61BCA34DE001EBDC7 /* HTTPGetAreaJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPGetAreaJson.swift; path = ../HTTPGetAreaJson.swift; sourceTree = "<group>"; };
 		42163FB71BCA34DE001EBDC7 /* HTTPGetBooMarkJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPGetBooMarkJson.swift; path = ../HTTPGetBooMarkJson.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		42270E9F1BCB843400F25C19 /* CollectionInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionInfo.swift; sourceTree = "<group>"; };
 		42C780A91BCA6162002605D6 /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 		42C780AC1BCA6B0D002605D6 /* HTTPPostMemberJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPPostMemberJson.swift; sourceTree = "<group>"; };
+		87C411A7885FB0B5B1F578B1 /* Pods-ShahrMa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShahrMa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShahrMa/Pods-ShahrMa.debug.xcconfig"; sourceTree = "<group>"; };
 		8D46681F1BC5278700AB3CFE /* MainTopJobsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTopJobsViewController.swift; sourceTree = "<group>"; };
 		8D6C4DD71BC90F7B002D60CB /* JobsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsData.swift; sourceTree = "<group>"; };
 		8D6C4DD81BC90F7B002D60CB /* JobsItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsItems.swift; sourceTree = "<group>"; };
@@ -114,6 +117,7 @@
 		8DF4CEA31BCA50170095133D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
 		8DF4CEA41BCA50170095133D /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
 		8DF4CEA51BCA50170095133D /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		DF5CF8F35B533AA9E06FC03D /* Pods-ShahrMa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShahrMa.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShahrMa/Pods-ShahrMa.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42163FE01BCA36B7001EBDC7 /* libsqlite3.dylib in Frameworks */,
+				A9976A21C59D42C49392AA7A /* Pods_ShahrMa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +198,23 @@
 			name = WebServicePost;
 			sourceTree = "<group>";
 		};
+		43CC34E3D494B2A6870C5002 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F7547A0B0E2BBEC214317AF /* Pods_ShahrMa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		852B45B58CCF7CDC67BEE020 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87C411A7885FB0B5B1F578B1 /* Pods-ShahrMa.debug.xcconfig */,
+				DF5CF8F35B533AA9E06FC03D /* Pods-ShahrMa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8D6C4DDD1BC90F84002D60CB /* Jobs */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +232,8 @@
 				8D6E11C31BC39AA300A42E0F /* ShahrMa */,
 				8D6E11D91BC39AA300A42E0F /* ShahrMaTests */,
 				8D6E11C21BC39AA300A42E0F /* Products */,
+				852B45B58CCF7CDC67BEE020 /* Pods */,
+				43CC34E3D494B2A6870C5002 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -305,9 +329,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D6E11E01BC39AA300A42E0F /* Build configuration list for PBXNativeTarget "ShahrMa" */;
 			buildPhases = (
+				6898EBA7795226746AB7B1BF /* Check Pods Manifest.lock */,
 				8D6E11BD1BC39AA300A42E0F /* Sources */,
 				8D6E11BE1BC39AA300A42E0F /* Frameworks */,
 				8D6E11BF1BC39AA300A42E0F /* Resources */,
+				D7259C6DAD1222BB5B9278F8 /* Embed Pods Frameworks */,
+				4E04EC95A40F94555DBED24E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -392,6 +419,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E04EC95A40F94555DBED24E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShahrMa/Pods-ShahrMa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6898EBA7795226746AB7B1BF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7259C6DAD1222BB5B9278F8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShahrMa/Pods-ShahrMa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D6E11BD1BC39AA300A42E0F /* Sources */ = {
@@ -560,10 +635,12 @@
 		};
 		8D6E11E11BC39AA300A42E0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C411A7885FB0B5B1F578B1 /* Pods-ShahrMa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ShahrMa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ShahrMa/ShahrMa-Bridging-Header.h";
@@ -573,10 +650,12 @@
 		};
 		8D6E11E21BC39AA300A42E0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF5CF8F35B533AA9E06FC03D /* Pods-ShahrMa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ShahrMa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ShahrMa/ShahrMa-Bridging-Header.h";
