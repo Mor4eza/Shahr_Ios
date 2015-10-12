@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AZt-eW-i7b">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Reveal View Controller-->
@@ -56,15 +55,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oLZ-FO-9z7">
-                                <rect key="frame" x="16" y="64" width="568" height="129"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="177"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="oLZ-FO-9z7" firstAttribute="top" secondItem="6DP-lF-cBf" secondAttribute="bottom" id="DQE-HB-LiY"/>
-                            <constraint firstItem="oLZ-FO-9z7" firstAttribute="leading" secondItem="app-UT-xLb" secondAttribute="leadingMargin" id="IVx-X7-SRv"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="oLZ-FO-9z7" secondAttribute="trailing" id="UAz-ZN-L8H"/>
-                            <constraint firstItem="IFJ-LA-I4e" firstAttribute="top" secondItem="oLZ-FO-9z7" secondAttribute="bottom" constant="358" id="VVo-Ba-Raw"/>
+                            <constraint firstItem="oLZ-FO-9z7" firstAttribute="top" secondItem="6DP-lF-cBf" secondAttribute="bottom" id="3iQ-uL-FpU"/>
+                            <constraint firstAttribute="trailing" secondItem="oLZ-FO-9z7" secondAttribute="trailing" id="6zL-fA-t2j"/>
+                            <constraint firstAttribute="trailing" secondItem="oLZ-FO-9z7" secondAttribute="trailing" id="8jp-Uk-f1c"/>
+                            <constraint firstItem="oLZ-FO-9z7" firstAttribute="leading" secondItem="app-UT-xLb" secondAttribute="leading" id="SuP-fq-Fq8"/>
+                            <constraint firstItem="oLZ-FO-9z7" firstAttribute="top" secondItem="6DP-lF-cBf" secondAttribute="bottom" id="W5H-YE-ePJ"/>
+                            <constraint firstItem="oLZ-FO-9z7" firstAttribute="leading" secondItem="app-UT-xLb" secondAttribute="leading" id="jhj-kI-Io7"/>
+                            <constraint firstItem="IFJ-LA-I4e" firstAttribute="top" secondItem="oLZ-FO-9z7" secondAttribute="bottom" constant="310" id="toF-uc-GpB"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="جستجو" image="menu9" id="hev-iR-SVQ"/>
@@ -74,7 +76,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fSe-n7-IV5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2360" y="-99"/>
+            <point key="canvasLocation" x="2383" y="-142"/>
         </scene>
         <!--مشاغل برتر-->
         <scene sceneID="nJo-O5-AHp">
