@@ -15,14 +15,14 @@ class JobsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var db = SelectDataBase()
-        var cursor = db.select_Collection()
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-        println("statr")
+        var db = SelectDataBase()
+        var cursor = db.select_Collection()
         for var i = 0; i < FieldDataBusiness.getCollectionId().count; i++ {
             println(FieldDataBusiness.getCollectionId()[i])
         }
