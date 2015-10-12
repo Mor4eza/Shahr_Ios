@@ -28,6 +28,25 @@ class FieldDataBusiness {
      static var SubsetId : Array<Int> = []
      static var Address : Array<String> = []
      static var MarketName : Array<String> = []
+     static var CollectionId : Array<Int32> = []
+     static var CollectionName : Array<String> = []
+    
+    
+    static func setCollectionId(id: Array<Int32>) {
+        self.CollectionId=id
+    }
+    
+    static func getCollectionId()-> Array<Int32> {
+       return self.CollectionId
+    }
+    
+    static func setCollectionName(name: Array<String>) {
+        self.CollectionName=name
+    }
+    
+    static func getCollectionName()-> Array<String> {
+        return self.CollectionName
+    }
     
     
     static func SetRateCount(rateCount: Array<Int>) {

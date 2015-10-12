@@ -27,6 +27,7 @@
 		42163FDB1BCA3568001EBDC7 /* QUERY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FD11BCA3568001EBDC7 /* QUERY.swift */; };
 		42163FDC1BCA3568001EBDC7 /* SelectDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FD21BCA3568001EBDC7 /* SelectDataBase.swift */; };
 		42163FE01BCA36B7001EBDC7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 42163FDF1BCA36B7001EBDC7 /* libsqlite3.dylib */; };
+		42270EA01BCB843400F25C19 /* CollectionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42270E9F1BCB843400F25C19 /* CollectionInfo.swift */; };
 		42C780AA1BCA6162002605D6 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C780A91BCA6162002605D6 /* Path.swift */; };
 		42C780AD1BCA6B0D002605D6 /* HTTPPostMemberJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C780AC1BCA6B0D002605D6 /* HTTPPostMemberJson.swift */; };
 		8D4668201BC5278700AB3CFE /* MainTopJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46681F1BC5278700AB3CFE /* MainTopJobsViewController.swift */; };
@@ -80,6 +81,7 @@
 		42163FD11BCA3568001EBDC7 /* QUERY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QUERY.swift; path = ../QUERY.swift; sourceTree = "<group>"; };
 		42163FD21BCA3568001EBDC7 /* SelectDataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectDataBase.swift; path = ../SelectDataBase.swift; sourceTree = "<group>"; };
 		42163FDF1BCA36B7001EBDC7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		42270E9F1BCB843400F25C19 /* CollectionInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionInfo.swift; sourceTree = "<group>"; };
 		42C780A91BCA6162002605D6 /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 		42C780AC1BCA6B0D002605D6 /* HTTPPostMemberJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPPostMemberJson.swift; sourceTree = "<group>"; };
 		8D46681F1BC5278700AB3CFE /* MainTopJobsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTopJobsViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				42163FD11BCA3568001EBDC7 /* QUERY.swift */,
 				42163FD21BCA3568001EBDC7 /* SelectDataBase.swift */,
 				42C780A91BCA6162002605D6 /* Path.swift */,
+				42270E9F1BCB843400F25C19 /* CollectionInfo.swift */,
 			);
 			name = DataBase;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 				8D6E11E91BC39C1000A42E0F /* SWRevealViewController.m in Sources */,
 				42163FC31BCA34DE001EBDC7 /* HTTPGetCollectionJson.swift in Sources */,
 				8DF4CEA91BCA50170095133D /* FMDatabaseAdditions.m in Sources */,
+				42270EA01BCB843400F25C19 /* CollectionInfo.swift in Sources */,
 				8D6C4DDA1BC90F7B002D60CB /* JobsData.swift in Sources */,
 				8DF4CEA71BCA50170095133D /* FMResultSet.m in Sources */,
 				8D4668201BC5278700AB3CFE /* MainTopJobsViewController.swift in Sources */,

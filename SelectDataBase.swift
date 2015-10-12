@@ -1020,14 +1020,27 @@ class SelectDataBase : DataBase {
     func select_Collection()-> FMResultSet
     {
         CreateOropen()
+        var id : Array<Int32> = []
+        var name : Array<String> = []
+          var fdb = FieldDataBusiness()
         let contactDB = FMDatabase(path: databasePath as String)
         if contactDB.open() {
-            result = contactDB.executeQuery("SELECT * FROM  \( Instruction.TABLE_NAME_Collection) ORDER BY CollectionName ASC",withArgumentsInArray: nil)
+             result = contactDB.executeQuery("SELECT * FROM  \( Instruction.TABLE_NAME_Collection) ORDER BY CollectionName ASC",withArgumentsInArray: nil)
+            
+            if result.next() == true {
+                do{
+                    println("name : \(result.stringForColumnIndex(1))")
+                    id.append(result.intForColumnIndex(0))
+                    name.append(result.stringForColumnIndex(1))
+                }while(result.next() == true)
+            }
+            FieldDataBusiness.setCollectionId(id)
+            FieldDataBusiness.setCollectionName(name)
             contactDB.close()
         } else {
             println("Error: \(contactDB.lastErrorMessage())")
         }
-        
+        println("count id : \(FieldDataBusiness.getCollectionId().count)")
         return result
     }
     
