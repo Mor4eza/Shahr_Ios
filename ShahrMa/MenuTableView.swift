@@ -43,6 +43,7 @@ class MenuTableView: UITableViewController {
         switch indexPath.row{
         case 0:
             jobs()
+        
             //declare parameter as a dictionary which contains string as key and value combination.
             
 //           

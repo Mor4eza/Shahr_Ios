@@ -1,62 +1,46 @@
 //
-//  JobsTableViewController.swift
-//  shahre_MA
+//  SubsetTableView.swift
+//  ShahrMa
 //
-//  Created by Morteza on 10/5/15.
+//  Created by Morteza on 10/14/15.
 //  Copyright (c) 2015 Ariana. All rights reserved.
 //
 
 import UIKit
 
-class JobsTableViewController: UITableViewController {
+class SubsetTableView: UITableViewController {
 
-    var collection = [String]()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-        
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-        
-        var db = SelectDataBase()
-        var cursor = db.select_Collection()
-        for var i = 0; i < FieldDataBusiness.getCollectionId().count; i++ {
-            collection.append(FieldDataBusiness.getCollectionName()[i])
-            println("Id: \(FieldDataBusiness.getCollectionId()[i])")
-            println("Name: \(FieldDataBusiness.getCollectionName()[i])")
-        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
 
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Potentially incomplete method implementation.
-        // Return the number of sections.
-        return 1
+      
+        return 0
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete method implementation.
-        // Return the number of rows in the section.
-        return collection.count
+     
+        return 0
     }
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("jobcell", forIndexPath: indexPath) as! UITableViewCell
-        cell.textLabel?.text = collection[indexPath.row]
-        cell.textLabel?.textAlignment = NSTextAlignment.Center
+        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! UITableViewCell
+
+        // Configure the cell...
+
         return cell
     }
+    
 
     /*
     // Override to support conditional editing of the table view.
