@@ -25,11 +25,18 @@ class FieldDataBusiness {
      static var Src: Array<String> = []
      static var Phone : Array<String> = []
      static var Mobile : Array<String> = []
-     static var SubsetId : Array<Int> = []
+     static var SubsetId : Array<Int32> = []
      static var Address : Array<String> = []
      static var MarketName : Array<String> = []
+    
+    
      static var CollectionId : Array<Int32> = []
      static var CollectionName : Array<String> = []
+    
+    
+    static var SubsetName : Array<String> = []
+    
+    
     
     
     static func setCollectionId(id: Array<Int32>) {
@@ -40,6 +47,16 @@ class FieldDataBusiness {
        return self.CollectionId
     }
     
+    
+    static func setSubsetId(id: Array<Int32>) {
+        self.SubsetId=id
+    }
+    
+    static func getSubsetId()-> Array<Int32> {
+        return self.SubsetId
+    }
+    
+    
     static func setCollectionName(name: Array<String>) {
         self.CollectionName=name
     }
@@ -48,6 +65,14 @@ class FieldDataBusiness {
         return self.CollectionName
     }
     
+    
+    static func setSubsetName(name: Array<String>) {
+        self.SubsetName=name
+    }
+    
+    static func getSubsetName()-> Array<String> {
+        return self.SubsetName
+    }
     
     static func SetRateCount(rateCount: Array<Int>) {
         self.RateCount=rateCount;

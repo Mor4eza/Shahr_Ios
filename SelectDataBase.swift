@@ -747,8 +747,7 @@ class SelectDataBase : DataBase {
     
     }
     
-    func select_TableSearchSortId()-> FMResultSet
-    {
+    func select_TableSearchSortId()-> FMResultSet{
     
         CreateOropen()
         let contactDB = FMDatabase(path: databasePath as String)
@@ -765,8 +764,7 @@ class SelectDataBase : DataBase {
     }
     
     
-    func select_SubsetId(subsetname: String)-> FMResultSet
-    {
+    func select_SubsetId(subsetname: String)-> FMResultSet{
         CreateOropen()
         let contactDB = FMDatabase(path: databasePath as String)
         if contactDB.open() {
@@ -779,6 +777,35 @@ class SelectDataBase : DataBase {
         return result
     
     }
+    
+    func select_subset(collectionid: Int) -> FMResultSet {
+        
+        CreateOropen()
+        var id : Array<Int32> = []
+        var name : Array<String> = []
+        var fdb = FieldDataBusiness()
+        let contactDB = FMDatabase(path: databasePath as String)
+        if contactDB.open() {
+            result = contactDB.executeQuery("SELECT * FROM  \( Instruction.TABLE_NAME_Subset) Where CollectionId =\(collectionid) ORDER BY CollectionName ASC",withArgumentsInArray: nil)
+            
+            if result.next() == true {
+                do{
+                    println("name : \(result.stringForColumnIndex(1))")
+                    id.append(result.intForColumnIndex(0))
+                    name.append(result.stringForColumnIndex(1))
+                }while(result.next() == true)
+            }
+            FieldDataBusiness.setSubsetId(id)
+            FieldDataBusiness.setSubsetName(name)
+            contactDB.close()
+        } else {
+            println("Error: \(contactDB.lastErrorMessage())")
+        }
+        println("count id : \(FieldDataBusiness.getCollectionId().count)")
+        return result
+    }
+    
+    
     
     func select_AdvanceSubsetId(subsetname: String)-> FMResultSet
     {
