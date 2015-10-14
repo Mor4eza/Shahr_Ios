@@ -28,6 +28,14 @@
 		42163FDC1BCA3568001EBDC7 /* SelectDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42163FD21BCA3568001EBDC7 /* SelectDataBase.swift */; };
 		42163FE01BCA36B7001EBDC7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 42163FDF1BCA36B7001EBDC7 /* libsqlite3.dylib */; };
 		42270EA01BCB843400F25C19 /* CollectionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42270E9F1BCB843400F25C19 /* CollectionInfo.swift */; };
+		4227D5B21BCE406D00A2D0EB /* HTTPPostBusinessEditJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227D5B11BCE406D00A2D0EB /* HTTPPostBusinessEditJson.swift */; };
+		4227D5B41BCE408C00A2D0EB /* HTTPPostBusinessJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227D5B31BCE408C00A2D0EB /* HTTPPostBusinessJson.swift */; };
+		4227D5B61BCE410700A2D0EB /* HTTPPostDisCountJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227D5B51BCE410700A2D0EB /* HTTPPostDisCountJson.swift */; };
+		4227D5B81BCE412600A2D0EB /* HTTPPostDisCountEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227D5B71BCE412600A2D0EB /* HTTPPostDisCountEdit.swift */; };
+		4227D5BA1BCE414A00A2D0EB /* HTTPPostInterestJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227D5B91BCE414A00A2D0EB /* HTTPPostInterestJson.swift */; };
+		4227D5BC1BCE416600A2D0EB /* HTTPPostLogJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227D5BB1BCE416600A2D0EB /* HTTPPostLogJson.swift */; };
+		4227D5BE1BCE41E200A2D0EB /* HTTPPostOpinionJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227D5BD1BCE41E200A2D0EB /* HTTPPostOpinionJson.swift */; };
+		4227D5C01BCE439800A2D0EB /* HTTPPostUploadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227D5BF1BCE439800A2D0EB /* HTTPPostUploadImage.swift */; };
 		42C780AA1BCA6162002605D6 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C780A91BCA6162002605D6 /* Path.swift */; };
 		42C780AD1BCA6B0D002605D6 /* HTTPPostMemberJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C780AC1BCA6B0D002605D6 /* HTTPPostMemberJson.swift */; };
 		8D4668201BC5278700AB3CFE /* MainTopJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46681F1BC5278700AB3CFE /* MainTopJobsViewController.swift */; };
@@ -83,6 +91,14 @@
 		42163FD21BCA3568001EBDC7 /* SelectDataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectDataBase.swift; path = ../SelectDataBase.swift; sourceTree = "<group>"; };
 		42163FDF1BCA36B7001EBDC7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		42270E9F1BCB843400F25C19 /* CollectionInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionInfo.swift; sourceTree = "<group>"; };
+		4227D5B11BCE406D00A2D0EB /* HTTPPostBusinessEditJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPPostBusinessEditJson.swift; sourceTree = "<group>"; };
+		4227D5B31BCE408C00A2D0EB /* HTTPPostBusinessJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPPostBusinessJson.swift; sourceTree = "<group>"; };
+		4227D5B51BCE410700A2D0EB /* HTTPPostDisCountJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPPostDisCountJson.swift; sourceTree = "<group>"; };
+		4227D5B71BCE412600A2D0EB /* HTTPPostDisCountEdit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPPostDisCountEdit.swift; sourceTree = "<group>"; };
+		4227D5B91BCE414A00A2D0EB /* HTTPPostInterestJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPPostInterestJson.swift; sourceTree = "<group>"; };
+		4227D5BB1BCE416600A2D0EB /* HTTPPostLogJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPPostLogJson.swift; sourceTree = "<group>"; };
+		4227D5BD1BCE41E200A2D0EB /* HTTPPostOpinionJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPPostOpinionJson.swift; sourceTree = "<group>"; };
+		4227D5BF1BCE439800A2D0EB /* HTTPPostUploadImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPPostUploadImage.swift; sourceTree = "<group>"; };
 		42C780A91BCA6162002605D6 /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 		42C780AC1BCA6B0D002605D6 /* HTTPPostMemberJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPPostMemberJson.swift; sourceTree = "<group>"; };
 		87C411A7885FB0B5B1F578B1 /* Pods-ShahrMa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShahrMa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShahrMa/Pods-ShahrMa.debug.xcconfig"; sourceTree = "<group>"; };
@@ -191,7 +207,15 @@
 		42C780AB1BCA6AD2002605D6 /* WebServicePost */ = {
 			isa = PBXGroup;
 			children = (
+				4227D5B11BCE406D00A2D0EB /* HTTPPostBusinessEditJson.swift */,
+				4227D5B31BCE408C00A2D0EB /* HTTPPostBusinessJson.swift */,
+				4227D5B51BCE410700A2D0EB /* HTTPPostDisCountJson.swift */,
+				4227D5B71BCE412600A2D0EB /* HTTPPostDisCountEdit.swift */,
+				4227D5B91BCE414A00A2D0EB /* HTTPPostInterestJson.swift */,
+				4227D5BB1BCE416600A2D0EB /* HTTPPostLogJson.swift */,
+				4227D5BD1BCE41E200A2D0EB /* HTTPPostOpinionJson.swift */,
 				42C780AC1BCA6B0D002605D6 /* HTTPPostMemberJson.swift */,
+				4227D5BF1BCE439800A2D0EB /* HTTPPostUploadImage.swift */,
 			);
 			name = WebServicePost;
 			sourceTree = "<group>";
@@ -471,6 +495,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				42C780AA1BCA6162002605D6 /* Path.swift in Sources */,
+				4227D5B61BCE410700A2D0EB /* HTTPPostDisCountJson.swift in Sources */,
+				4227D5BA1BCE414A00A2D0EB /* HTTPPostInterestJson.swift in Sources */,
 				42163FC11BCA34DE001EBDC7 /* HTTPGetBussinessJson.swift in Sources */,
 				42163FC01BCA34DE001EBDC7 /* HTTPGetBooMarkJson.swift in Sources */,
 				8D778FCB1BCE5F8F0048F7A6 /* SubsetTableView.swift in Sources */,
@@ -484,9 +510,11 @@
 				42163FBF1BCA34DE001EBDC7 /* HTTPGetAreaJson.swift in Sources */,
 				42163FC51BCA34DE001EBDC7 /* HTTPGetOpinionJson.swift in Sources */,
 				8D6E11C71BC39AA300A42E0F /* AppDelegate.swift in Sources */,
+				4227D5BC1BCE416600A2D0EB /* HTTPPostLogJson.swift in Sources */,
 				42C780AD1BCA6B0D002605D6 /* HTTPPostMemberJson.swift in Sources */,
 				42163FD41BCA3568001EBDC7 /* DataBase.swift in Sources */,
 				42163FD61BCA3568001EBDC7 /* DeleteDataBase.swift in Sources */,
+				4227D5B81BCE412600A2D0EB /* HTTPPostDisCountEdit.swift in Sources */,
 				42163FD71BCA3568001EBDC7 /* FieldClass.swift in Sources */,
 				8DF4CEAA1BCA50170095133D /* FMDatabasePool.m in Sources */,
 				42163FD31BCA3568001EBDC7 /* AddDataBase.swift in Sources */,
@@ -496,6 +524,8 @@
 				8D6E11EF1BC3A26400A42E0F /* MenuTableView.swift in Sources */,
 				8D6E11E91BC39C1000A42E0F /* SWRevealViewController.m in Sources */,
 				42163FC31BCA34DE001EBDC7 /* HTTPGetCollectionJson.swift in Sources */,
+				4227D5B21BCE406D00A2D0EB /* HTTPPostBusinessEditJson.swift in Sources */,
+				4227D5B41BCE408C00A2D0EB /* HTTPPostBusinessJson.swift in Sources */,
 				8DF4CEA91BCA50170095133D /* FMDatabaseAdditions.m in Sources */,
 				42270EA01BCB843400F25C19 /* CollectionInfo.swift in Sources */,
 				8DF4CEA71BCA50170095133D /* FMResultSet.m in Sources */,
@@ -504,6 +534,7 @@
 				8DF4CEA81BCA50170095133D /* FMDatabaseQueue.m in Sources */,
 				42163FDA1BCA3568001EBDC7 /* File.swift in Sources */,
 				8D6C4DDF1BC91054002D60CB /* JobsTableViewController.swift in Sources */,
+				4227D5C01BCE439800A2D0EB /* HTTPPostUploadImage.swift in Sources */,
 				42163FD81BCA3568001EBDC7 /* FieldDataBase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
