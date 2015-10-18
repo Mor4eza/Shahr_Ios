@@ -11,7 +11,7 @@ import UIKit
 class JobsTableViewController: UITableViewController {
 
     var collection = [String]()
-    
+    var collectionId = [Int32]()
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,6 +26,7 @@ class JobsTableViewController: UITableViewController {
         var cursor = db.select_Collection()
         for var i = 0; i < FieldDataBusiness.getCollectionId().count; i++ {
             collection.append(FieldDataBusiness.getCollectionName()[i])
+            collectionId.append(FieldDataBusiness.getCollectionId()[i])
             println("Id: \(FieldDataBusiness.getCollectionId()[i])")
             println("Name: \(FieldDataBusiness.getCollectionName()[i])")
         }
@@ -56,6 +57,9 @@ class JobsTableViewController: UITableViewController {
         cell.textLabel?.text = collection[indexPath.row]
         cell.textLabel?.textAlignment = NSTextAlignment.Center
         return cell
+    }
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        println(collectionId[indexPath.row])
     }
 
     /*
