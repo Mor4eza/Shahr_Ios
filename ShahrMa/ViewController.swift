@@ -14,9 +14,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        scrollView.auk.show(url: "http://www.shahrma.com/app/Advertisment/11.jpg")
-        scrollView.auk.show(url: "http://www.shahrma.com/app/Advertisment/22.jpg")
-        scrollView.auk.show(url: "http://www.shahrma.com/app/Advertisment/33.jpg")
+        scrollView.auk.show(url: "http://www.shahrma.com/app/Advertisment/a1.jpg")
+        scrollView.auk.show(url: "http://www.shahrma.com/app/Advertisment/a2.jpg")
+        scrollView.auk.show(url: "http://www.shahrma.com/app/Advertisment/a3.jpg")
         scrollView.auk.startAutoScroll(delaySeconds: 3.0, forward: true, cycle: true, animated: true)
         scrollView.auk.settings.contentMode = UIViewContentMode.ScaleToFill
     }

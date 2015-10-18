@@ -101,11 +101,11 @@ class FieldDataBusiness {
         return self.Id
     }
     
-    static func SetSubsetId(subsetId: Array<Int>){
+    static func SetSubsetId(subsetId: Array<Int32>){
         self.SubsetId=subsetId;
     }
     
-    static func GetSubsetId()-> Array<Int>{
+    static func GetSubsetId()-> Array<Int32>{
         return self.SubsetId;
     }
     
